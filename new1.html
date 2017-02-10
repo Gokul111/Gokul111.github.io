@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+    <title>Home|Sharad48</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+        @import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/css/mdb.min.css);
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+    <!-- Icon font -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+    <style type="text/css">
+        #head {
+  background: #f4f4f4 url('me3.jpeg') top center;
+  background-size: cover;
+  color: #7C7C7C;
+  padding: 30px 0 35px 0;
+}
+#head img.img-circle {
+  display: block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 9px solid rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+}
+#head .title {
+  font-family: Alice, Georgia, serif;
+  font-size: 49px;
+  font-size: 3.0625rem;
+}
+#head .title a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#head .tagline {
+  display: block;
+  font-size: 14px;
+  font-size: 2rem;
+  line-height: 1.2em;
+  color: #7C7C7C;
+  margin: 5px 0 0;
+}
+.home #head {
+  padding: 90px 0;
+}
+.home #head .title {
+  font-size: 49px;
+  font-size: 3.0625rem;
+}
+.home #head .tagline {
+  font-size: 16px;
+  font-size: 1rem;
+  margin: 15px 0 0;
+}
+.navbar {
+  border-width: 1px 0;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  width: 100%;
+}
+.navbar.stick {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: .85;
+}
+.navbar-collapse {
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.navbar-collapse .navbar-nav {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.navbar-collapse .navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+.navbar-collapse .navbar-nav > li > a {
+  padding: 20px 30px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #454545;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+  background-color: #A9A9A9;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000;
+  background-color: #ffffff;
+}
+.navbar-default .dropdown ul.dropdown-menu > li > a {
+  color: #454545;
+}
+.navbar-default .dropdown ul.dropdown-menu > li > a:hover {
+  background-color: #eeeeee;
+  color: #000000;
+}
+.navbar-default .navbar-toggle {
+  border-color: #666666;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #333333;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #cccccc;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #fff;
+  color: #fff;
+}
+#footer {
+  background: #000;
+  padding: 30px 0 0 0;
+  font-size: 12px;
+  color: #999;
+}
+#footer a {
+  color: #ccc;
+}
+#footer a:hover {
+  color: #fff;
+}
+#footer h3.widget-title {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  color: #ccc;
+  margin: 0 0 20px;
+}
+#underfooter {
+  background: #191919;
+  padding: 15px 0;
+  color: #777;
+  font-size: 12px;
+}
+#underfooter a {
+  color: #aaa;
+}
+#underfooter a:hover {
+  color: #fff;
+}
+#underfooter p {
+  margin: 0;
+}
+.follow-me-icons {
+  font-size: 30px;
+}
+.follow-me-icons i {
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* Max page width
+/////////////////////////////////////////////////////////////////////*/
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1080px;
+  }
+}
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div id="head" class="parallax" parallax-speed="1">
+            <h1 id="logo" class="text-center">
+                <img class="img-circle" src="me.jpeg" alt="">
+                <span class="title" style="color: #fff">Sharad Joe</span>
+                <span class="tagline" style="color: #fff">A creative man is motivated by the desire to achieve, not by the desire to beat others.</span>
+            </h1>
+        </div>
+        <nav class="navbar navbar-default navbar-sticky">
+        <div class="container-fluid">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            
+            <div class="navbar-collapse collapse">
+                
+                <ul class="nav navbar-nav">
+                    <li><a  href="#">Home</a></li>
+                    <li class="active"><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            
+            </div><!--/.nav-collapse -->            
+        </div>  
+        </nav>
+    </header>
+    <div class="row">
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            <!--Card image-->
+                            <div class="view overlay hm-white-slight">
+                                <img src="career.png" class="img-fluid" alt="">
+                                <a>
+                                    <div class="mask"></div>
+                                </a>
+                            </div>
+
+                            <!--Card content-->
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class="card-title">Career Objective</h4>
+                                <!--Text-->
+                                <p class="card-text">My goal is to become associated with a company where I can utilize my skills </p>
+                                
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            <!--Card image-->
+                            <!--Card image-->
+                            <div class="view overlay hm-white-slight">
+                                <img class="img-fluid" src="language.jpg" alt="Card image cap">
+                                <a>
+                                    <div class="mask"></div>
+                                </a>
+                            </div>
+
+
+                            <!--Card content-->
+                            <div class="card-block">
+                                <!--Title-->
+                                <h4 class="card-title">Languages Known</h4>
+                                <!--Text-->
+                                <p class="card-text">English<br>Malayalam</p>
+                                
+                            </div>
+
+                        </div>
+                         </div>
+
+                    <div class="col-lg-4 col-md-6">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            <!--Card image-->
+                            <div class="view overlay hm-white-slight">
+                                <img src="hobby.png" class="img-fluid" alt="">
+                                <a>
+                                    <div class="mask"></div>
+                                </a>
+                            </div>
+                             <div class="card-block">
+                                <!--Title-->
+                                <h4 class="card-title">Hobbies</h4>
+                                <!--Text-->
+                                <p class="card-text">Reading<br>Gaming</p>
+                                
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--/.Card-->
+
+                </div>
+                <footer id="footer" class="topspace">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 widget">
+                <h3 class="widget-title">Contact</h3>
+                <div class="widget-body">
+                    <p>+91 7561062605<br>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sharadjoe48@gmail.com&su=SUBJECT&body=BODY&bcc=someone@example.com">sharadjoe48@gmail.com</a><br>
+                        <br>
+                        Kaduthanam, Nalukody p.o, Changanacherry
+                    </p>    
+                </div>
+            </div>
+
+            <div class="col-md-6 widget">
+                <h3 class="widget-title">Follow me</h3>
+                <div class="widget-body">
+                    <p class="follow-me-icons">
+                        <a href="https://github.com/sharadjoe"><i class="fa fa-github fa-2"></i></a>
+                        <a href="https://www.facebook.com/sharad.joe"><i class="fa fa-facebook fa-2"></i></a>
+                    </p>
+                </div>
+            </div>
+
+            
+
+           
+
+        </div> <!-- /row of widgets -->
+    </div>
+</footer>
+
+<footer id="underfooter">
+    <div class="container">
+        <div class="row">
+            
+
+            <div class="col-md-6 widget">
+                <div class="widget-body">
+                    <p class="text-right">
+                        Copyright &copy; 2016, Sharad48<br> 
+                </div>
+            </div>
+
+        </div> <!-- /row of widgets -->
+    </div>
+</footer>
+</body>
+</html>
