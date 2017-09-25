@@ -1,0 +1,78 @@
+
+#include<stdio.h>
+#include<process.h>
+#include<conio.h>
+void main(){
+	int allocation[15][15],max[10][5],need[10][5],available[3],flag[10],sq[10];
+	int n,r,i,j,k,count,count1=0;
+	clrscr();
+	printf("\nEnter the number of running processes( <15 ): ");
+	scanf("%d",&n);
+	for(i=0;i<10;i++)
+	flag[i]=0;
+	printf("\nEnter the number of resources ( <15 ): ");
+	scanf("%d",&r);
+	printf("\nEnter the Allocation matrix: \n");
+	for(i=0;i<n;i++){
+		printf("\n For P[%d] : ",i);
+		for(j=0;j<r;j++){
+			scanf("%d",&allocation[i][j]);
+			}
+		}
+	printf("\nMaximum Resource");
+	for(i=0;i<n;i++){
+		printf("\n For P[%d] : ",i);
+		for(j=0;j<r;j++){
+			scanf("%d",&max[i][j]);
+			}
+		}
+	printf("\nAvailable Instances for each resource: ");
+	for(i=0;i<r;i++){
+		scanf("%d",&available[i]);
+		}
+	printf("\nThe need matrix is as follows: \n");
+	for(i=0;i<n;i++){
+		for(j=0;j<r;j++){
+			need[i][j]= max[i][j]-allocation[i][j];
+			printf("\t %d",need[i][j]);
+			}
+		printf("\n");
+		}
+	do{
+		for(k=0;k<n;k++){
+			for(i=0;i<n;i++){
+				if(flag[i]==0){
+			count=0;
+			for(j=0;j<r;j++){
+				if(available[j]>=need[i][j])
+				count++;
+				}
+			if(count==r){
+				count1++;
+				flag[i]=1;
+				sq[count1-1]=i;
+				for(j=0;j<r;j++){
+					available[j]=available[j]+allocation[i][j];
+					}
+				break;
+				}
+			}
+		}
+	}
+	if(count1!=n){
+		printf("\nThis is an UNSAFE STATE!!!");
+		break;
+		}
+	}while(count1!=n);
+	if(count1==n){
+		printf("\nThis is a SAFE STATE");
+		printf("\nThe safe sequence is as follows: \n");
+	for(i=0;i<n;i++)
+		printf("P[%d] ",sq[i]);
+		printf("\n");
+	printf("\nThe Available matrix is as follows: ");
+	for(i=0;i<r;i++)
+	   printf("\t %d",available[i]);
+	}
+	getch();
+}
