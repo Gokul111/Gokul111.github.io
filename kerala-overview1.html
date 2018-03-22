@@ -24,9 +24,11 @@
           
         </ul>
         <ul class="top-menu">
-          <li><a href="#experience-kerala">EXPERIENCE KERALA</a></li>
+          <li><a href="#ex">EXPERIENCE KERALA</a></li>
           <li><a href="#where-to-go">WHERE TO GO</a></li>
           <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#reg">REGISTER</li>
+          <li><a href="#login">LOGIN</li>
           </ul>          
       </div>
     </div>
@@ -39,20 +41,20 @@
         <h2>Experience Kerala</h2>
         <span class="sub-head">Golden beaches, emerald backwaters, lofty mountain ranges, powerful art forms... the choices are many and so are the wonders that await you in Kerala. Come and take home what they call ‘memories’, the kind that makes life worth living.</span> </div>
       
-      	<table>
-     	 <tr>
-			<td><a href="https://en.wikipedia.org/wiki/Theyyam"><img src="https://www.keralatourism.org/images/kt/experiences/theyyam.jpg" style="height:400px;width:300px" /><span class="caption">Art Forms</span></a></td>
-					
-					
-			<td><a href="https://en.wikipedia.org/wiki/Hill_station"><img src="https://www.keralatourism.org/images/kt/experiences/hillstation.jpg" style="height:400px;width:300px" /><span class="caption">Hill Stations</span></a></td>
-					
+        <table>
+       <tr>
+      <td><a href="https://en.wikipedia.org/wiki/Theyyam"><img src="https://www.keralatourism.org/images/kt/experiences/theyyam.jpg" style="height:400px;width:300px" /><span class="caption">Art Forms</span></a></td>
+          
+          
+      <td><a href="https://en.wikipedia.org/wiki/Hill_station"><img src="https://www.keralatourism.org/images/kt/experiences/hillstation.jpg" style="height:400px;width:300px" /><span class="caption">Hill Stations</span></a></td>
+          
                     
-			<td><a href="https://en.wikipedia.org/wiki/The_Boat_Race"><img src="https://www.keralatourism.org/images/kt/experiences/boatrace2.jpg" style="height:400px;width:300px" /><span class="caption">Boat Race</span></a></td>
-					
-					
-			<td><a href="https://en.wikipedia.org/wiki/Sustainable_tourism"><img src="https://www.keralatourism.org/images/kt/experiences/responsible-tourism.jpg" style="height:400px;width:300px" /><span class="caption">Responsible tourism</span></a></td>
-		</tr>
-		</table>
+      <td><a href="https://en.wikipedia.org/wiki/The_Boat_Race"><img src="https://www.keralatourism.org/images/kt/experiences/boatrace2.jpg" style="height:400px;width:300px" /><span class="caption">Boat Race</span></a></td>
+          
+          
+      <td><a href="https://en.wikipedia.org/wiki/Sustainable_tourism"><img src="https://www.keralatourism.org/images/kt/experiences/responsible-tourism.jpg" style="height:400px;width:300px" /><span class="caption">Responsible tourism</span></a></td>
+    </tr>
+    </table>
 
     </div>
   </div>
@@ -70,13 +72,49 @@
           </div>
           <div class="col-md-4">
             <ul>
-			<li><a href='' >Kathakali Festival 2018, 20 -26 January 2018 @ Nishagandhi Auditorium</a></li><li><a href='' >Kerala  Newsletter January 2018</a></li>            </ul>
+      <li><a href='' >Kathakali Festival 2018, 20 -26 January 2018 @ Nishagandhi Auditorium</a></li><li><a href='' >Kerala  Newsletter January 2018</a></li>            </ul>
           </div>   
       </div>
-      <div class="find-more text-center"> <a href="" class="kt-btn">MORE NEWS &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a> </div>
+      <div class="find-more text-center"> <a id="reg" href="" class="kt-btn">MORE NEWS &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a> </div>
     </div>
   </div>
 </div>
+<form action="#" name="register" id="form"   method="post" accept-charset="utf-8">
+    <u><bold><h2 style="padding-left:50px">Enter signup details</h2></bold></u>
+         <div  text-align="center">                                                                                                            
+      <div class="col-md-12">
+        <div class="hotel-search">
+          <div text-align="left">
+            
+            <hr/>
+          </div>
+          <div class="col-md-4 form-group">
+            <input type="text" class="form-control" placeholder="Enter Username"" name="name" id="us" required>
+          <br>
+          
+            <input type="password" class="form-control" placeholder="Enter Password" name="name1" id="p1" required>
+          <br>
+          
+            <input type="password" class="form-control" placeholder="Confirm Password" name="name2" id="p2" required>
+          <br>
+            <input type="radio" name="gender" value="male" id="m" checked> Male<br>
+              <input type="radio" name="gender" value="female" id="f"> Female<br>
+
+            <br>
+              <input type="date" name="date1" id="d" required>
+            <br><br>
+              <input type="tel" name="usrtel" placeholder="phone number" id="p" required>
+          </div>
+        </div>  
+        <div></div>
+        <div style="padding-left:100px">
+          <button class="btn btn-success btn-md form-control custom-btn" type="submit"   style="width:140px;height:38px" onclick="validate(document.getElementById('p1').value,document.getElementById('p2').value,document.getElementById('us').value,document.getElementById('d').value,document.getElementById('p').value)">
+              Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+</form>
 <div class="section top-destinations" id="where-to-go">
     <div class="container">
         <div class="row">
@@ -86,7 +124,7 @@
             </div>
 
             <table>
-            	<tr>
+              <tr>
                     <td><a href="https://en.wikipedia.org/wiki/Munnar"><div class="tile">
                         <img src="https://www.keralatourism.org/images/kt/munnar.jpg" alt="" class="img-responsive" width="100%">
                         <span class="caption">Munnar</span>
@@ -112,7 +150,7 @@
                 </tr>
                 <tr>
 
-              	    <td><a href="https://en.wikipedia.org/wiki/Alappuzha"><div class="tile">                	
+                    <td><a href="https://en.wikipedia.org/wiki/Alappuzha"><div class="tile">                  
                         <img src="https://www.keralatourism.org/images/kt/alappuzha-houseboat.jpg" alt="" class="img-responsive" width="100%"> 
                         <span class="caption">Alappuzha</span> 
                     </div>  </a></td>               
@@ -136,20 +174,62 @@
                     </div></a></td>>
                 </tr>
             </table>
- <div class="find-more text-center"> <a href="" class="kt-btn">EXPLORE OUR DESTINATIONS &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a> </div>
+ <div class="find-more text-center"> <a id="login" href="" class="kt-btn">EXPLORE OUR DESTINATIONS &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a> </div>
         </div>
     </div>
 </div>
-<link rel="shortcut icon" href="https://www.keralatourism.org/favicon.ico" type="image/x-icon" />
-<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Lobster|Oswald:400,500,600|Raleway" rel="stylesheet">
 
-<link href="https://www.keralatourism.org/css/kt/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<link href="https://www.keralatourism.org/css/kt/kt-css-desktop.css?d=22012018200527" rel="stylesheet" type="text/css" />
-<link href="https://www.keralatourism.org/css/kt/custom-kt.css?d=22012018200527" rel="stylesheet" type="text/css" />
-<link href="https://www.keralatourism.org/css/kt/owl.carousel.css" rel="stylesheet" type="text/css" />
-<link href="https://www.keralatourism.org/css/kt/owl.theme.default.css" rel="stylesheet" type="text/css" />
-<link href="https://www.keralatourism.org/css/font-awesome.min.css" rel="stylesheet"> 
+
+<form action="#" name="login" id="form1"   method="post" accept-charset="utf-8">
+    <u><h2 style="padding-left:50px">Login</h2></u>
+         <div  text-align="center">                                                                                                            
+      <div class="col-md-12">
+        <div class="hotel-search">
+          <div text-align="left">
+            
+            <hr/>
+          </div>
+          <div class="col-md-4 form-group">
+            <input type="text" class="form-control" placeholder="Enter Username/mobile no"" name="name" id="us1" required>
+          <br>
+          
+            <input type="password" class="form-control" placeholder="Enter Password" name="name1" id="p11" required>
+          <br>
+          </div>
+        </div>  
+        <div></div>
+        <div style="padding-left:100px">
+          <button class="btn btn-success btn-md form-control custom-btn" type="submit1"   style="width:140px;height:38px" onclick="check()">
+              Login
+          </button>
+        </div>
+      </div>
+    </div>
+</form>
+<script type="text/javascript" >
+  function validate(p1,p2,us,d,p)
+{
+  if(us.length==0 || p1.length==0 || p2.length==0 || d.length==0 || p.length==0)
+      { alert("fill out all the fields");}
+    else{
+    if(p1==p2)
+      {  confirm("Are you sure to sign in?");
+
+       }
+    else
+    {
+      alert("password mismatch!! , re enter");
+    }}
+    
+}
+function check()
+{
+  alert("Login Successfull");
+}
+</script>
+</body></html>
+
+ 
 <div class="section gallery">
   <div class="section-head">
     <h2 id="gallery">Explore Photo Gallery</h2>
@@ -198,6 +278,16 @@
 </div><br /><br />
  <h3 style="text-align:center"> <span style="color:#3eb7ee">#Kerala_God's OWn Country</span> is Live &amp; Trending. Don't forget to  share your Kerala experience</h3>
         <hr/>  
+        <link rel="shortcut icon" href="https://www.keralatourism.org/favicon.ico" type="image/x-icon" />
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Lobster|Oswald:400,500,600|Raleway" rel="stylesheet">
+
+<link href="https://www.keralatourism.org/css/kt/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="https://www.keralatourism.org/css/kt/kt-css-desktop.css?d=22012018200527" rel="stylesheet" type="text/css" />
+<link href="https://www.keralatourism.org/css/kt/custom-kt.css?d=22012018200527" rel="stylesheet" type="text/css" />
+<link href="https://www.keralatourism.org/css/kt/owl.carousel.css" rel="stylesheet" type="text/css" />
+<link href="https://www.keralatourism.org/css/kt/owl.theme.default.css" rel="stylesheet" type="text/css" />
+<link href="https://www.keralatourism.org/css/font-awesome.min.css" rel="stylesheet">
 <div class="footer-section">
   <div class="container">
     <div class="row">
