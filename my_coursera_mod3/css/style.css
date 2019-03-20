@@ -1,0 +1,178 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+}
+/* h1{
+    margin: 20px 0px;
+} */
+
+h1{
+    background-color: #f5614d;
+    padding: 5px 15px 9px;
+    color: #fff;
+    border-radius: 32px;
+    margin: 20px auto;
+    border: 5px solid #fff;
+    box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.12);
+    display: inline-block;
+    text-align: center;
+}
+
+h2{
+    margin: 0px;
+}
+
+/* #assignment3_header nav.navbar {
+    background-color: #999 !important;
+    border: 0px;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+} */
+#assignment3_header nav.navbar {
+    background-color: #fff;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.12);
+    align-items: center;
+    padding: 10px 0px;
+}
+#assignment3_header .navbar-default .navbar-brand{
+    color: #f5614d;
+    font-size: 24px;
+}
+
+button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+/* .meal_box{
+    position: relative;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+} */
+
+.meal_box{
+    position: relative;
+    border: 2px solid #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.12);
+}
+
+/* .meal_box .meal_title{
+    position: relative;
+    float: right;
+    top: -1px;
+    right: -1px;
+    padding:3px 20px;
+    border: 1px solid #000;
+    min-width: 135px;
+    min-height: 30px;
+} */
+/* .meal_box .meal_title {
+    position: relative;
+    float: right;
+    top: 0px;
+    right: 0px;
+    padding: 3px 20px;
+    border-radius: 21px;
+    border: 2px solid #fff;
+    min-width: 135px;
+    min-height: 30px;
+    box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.12);
+} */
+
+.meal_box .meal_title {
+    padding: 3px 20px;
+    border-radius: 21px;
+    border: 2px solid #fff;
+    min-width: 135px;
+    min-height: 30px;
+    box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.12);
+    margin: 15px 0px 10px;
+    display: inline-block;
+}
+
+/* .meal_title.chicken{background-color: #d59898}
+.meal_title.beef{background-color: #c14543}
+.meal_title.sushi{background-color: #e5d198}
+.meal_title.beef h2{color:#fff} */
+
+.meal_title.chicken{
+    border: 2px solid #0f7b54;
+    box-shadow: 0px 1px 12px 0px rgba(15, 123, 84, 0.40);
+}
+.meal_title.beef{
+    border: 2px solid #c14543;
+    box-shadow: 0px 1px 12px 0px rgba(193, 69, 67, 0.4);
+}
+.meal_title.sushi{
+    border: 2px solid #b58702;
+    box-shadow: 0px 1px 12px 0px rgba(181, 135, 2, 0.3);
+}
+
+.meal_title.chicken h2{color:#0f7b54}
+.meal_title.beef h2{color: #c14543}
+.meal_title.sushi h2{color: #b58702}
+
+.meal_box p{
+    padding: 5px 10px 10px;
+    margin: 0px;
+    clear: right;
+}
+
+.meal_box:hover{
+    border: 2px solid #f5614d;
+}
+
+.meal_box:hover .meal_title{
+    border: 2px solid #fff;
+    box-shadow: 0px 1px 12px 0px #fff;
+}
+
+.meal_box:hover  .meal_title.chicken h2{color:#f5614d}
+.meal_box:hover  .meal_title.beef h2{color: #f5614d}
+.meal_box:hover  .meal_title.sushi h2{color: #f5614d}
+
+
+
+@media (max-width : 767px){  
+    #assignment3_header nav.navbar{
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #f5614d;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #f5614d;
+    }
+    #assignment3_menu{
+        border: 1px solid #f5614d;
+        background-color: #fff;
+        width: 90%;
+        margin: 0 auto;
+        margin: 0 auto 10px;
+    }
+    #assignment3_menu ul{
+        margin: 0px;
+    }
+    #assignment3_menu ul li{
+        border-bottom: 1px solid #f5614d;
+    }
+    #assignment3_menu ul li:last-child{
+        border-bottom: 0px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #000;
+        font-family: oxygen;
+        font-size: 18px;
+    }
+}
