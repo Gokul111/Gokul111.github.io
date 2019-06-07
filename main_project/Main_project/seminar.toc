@@ -1,0 +1,109 @@
+\contentsline {paragraph}{}{}
+\contentsline {paragraph}{}{}
+\contentsline {paragraph}{}{}
+\contentsline {paragraph}{}{}
+\contentsline {paragraph}{}{}
+\contentsline {paragraph}{}{}
+\contentsline {section}{\numberline {1}Overview}{1}
+\contentsline {subsection}{\numberline {1.1}Background}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {paragraph}{}{1}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {subsubsection}{\numberline {1.1.1}Convolution:}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {subsubsection}{\numberline {1.1.2}Rectified Linear Unit}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsubsection}{\numberline {1.1.3}Pooling(sub-sampling)}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{5}
+\contentsline {subsubsection}{\numberline {1.1.4}﻿Classification(Multilayer Perceptron)}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsection}{\numberline {1.2}Problem Definition}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsection}{\numberline {1.3}Objective}{6}
+\contentsline {subsection}{\numberline {1.4}Scope of the Project}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {section}{\numberline {2}Literature Review}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {paragraph}{}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {subsection}{\numberline {2.1}Previous Technology}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {subsection}{\numberline {2.2}WISEE}{8}
+\contentsline {paragraph}{}{8}
+\contentsline {paragraph}{}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {paragraph}{}{9}
+\contentsline {subsection}{\numberline {2.3}Wi-fi signals enable gesture recognition throughout entire home}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{10}
+\contentsline {paragraph}{}{11}
+\contentsline {section}{\numberline {3}RELATED WORK}{12}
+\contentsline {subsection}{\numberline {3.1}Wi-Vi Through Radar Wall}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {3.2}Gesture Based Interfaces}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {3.3}Infrared and Thermal Imaging}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {section}{\numberline {4}TRACKING MOTION}{14}
+\contentsline {subsection}{\numberline {4.1}Tracking a single human}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {subsection}{\numberline {4.2}Tracking Multiple Humans}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {paragraph}{}{17}
+\contentsline {subsection}{\numberline {4.3}Eliminating the Flash Effect}{17}
+\contentsline {paragraph}{}{17}
+\contentsline {subsubsection}{\numberline {4.3.1}Nulling to Remove Flash}{17}
+\contentsline {paragraph}{}{17}
+\contentsline {paragraph}{}{17}
+\contentsline {paragraph}{}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {paragraph}{}{19}
+\contentsline {paragraph}{}{19}
+\contentsline {section}{\numberline {5}TRACKING TECHNIQUES}{20}
+\contentsline {subsection}{\numberline {5.1}Human as the Source}{20}
+\contentsline {paragraph}{}{20}
+\contentsline {paragraph}{}{20}
+\contentsline {subsection}{\numberline {5.2}Measuring Direction of Motion}{20}
+\contentsline {paragraph}{}{20}
+\contentsline {paragraph}{}{21}
+\contentsline {section}{\numberline {6}THROUGH WALL GESTURE-BASED COMMUNICATION}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {subsection}{\numberline {6.1}Gesture Encoding}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {subsection}{\numberline {6.2}Gesture Decoding}{23}
+\contentsline {paragraph}{}{23}
+\contentsline {paragraph}{}{23}
+\contentsline {paragraph}{}{23}
+\contentsline {section}{\numberline {7}ADVANTAGES AND LIMITATIONS}{24}
+\contentsline {subsection}{\numberline {7.1}Advantages:}{24}
+\contentsline {subsection}{\numberline {7.2}Limitations:}{24}
+\contentsline {section}{\numberline {8}CONCLUSION AND FUTURE ENHANCEMENT}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {section}{\numberline {9}REFERENCES}{26}
