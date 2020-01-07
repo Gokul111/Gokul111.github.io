@@ -1,2 +1,2 @@
-# mydevcom
-developing web/apps using simple programs
+# GitRepo
+Familiarizing Git
